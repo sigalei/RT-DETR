@@ -174,8 +174,10 @@ class ConvertCocoPolysToMask(object):
     
         return image, target
 
-
 mscoco_category2name = {
+    0: 'Text'
+}
+mscoco_category2name_ = {
     1: 'person',
     2: 'bicycle',
     3: 'car',
